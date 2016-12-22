@@ -1,57 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="x86"
-    api-level="23"
+    api-level="19"
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="786894812504284"
+    timestamp="802669869323880"
     token="5989882199929361439"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="1098" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="1261" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="116" />
+        duration="0" />
     <task
         name="verifier"
-        duration="12" />
+        duration="0" />
 
     <artifact
         location="C:\Users\OFFICE\Downloads\xyzreader\XYZReader\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
         type="RESOURCES" />
-    <artifact
-        location="C:\Users\OFFICE\Downloads\xyzreader\XYZReader\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
 
     <build
-        timestamp="785152939410111"
+        timestamp="802441070856793"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\OFFICE\Downloads\xyzreader\XYZReader\build\outputs\apk\XYZReader-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="786457945900566"
-        verifier="CLASS_ADDED" >
-        <artifact
-            location="C:\Users\OFFICE\Downloads\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="786894812504284"
+        timestamp="802669869323880"
         verifier="COMPATIBLE" >
         <artifact
             location="C:\Users\OFFICE\Downloads\xyzreader\XYZReader\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
             type="RESOURCES" />
-        <artifact
-            location="C:\Users\OFFICE\Downloads\xyzreader\XYZReader\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
