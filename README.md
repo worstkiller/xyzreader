@@ -1,4 +1,4 @@
-###XYZ READER
+#XYZ READER
 
 This project demonstrates the material design guidelines for android app. Things like Cardlayout,toolbar,ripple touch, FAB and many more  things are used.
 
