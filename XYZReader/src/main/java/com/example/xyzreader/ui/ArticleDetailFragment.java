@@ -54,6 +54,7 @@ public class ArticleDetailFragment extends Fragment implements
     private int mScrollY;
     private boolean mIsCard = false;
     private int mStatusBarFullOpacityBottom;
+    private View viewArticleDetail;
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -112,6 +113,7 @@ public class ArticleDetailFragment extends Fragment implements
             }
         });
 
+        viewArticleDetail = (View) mRootView.findViewById(R.id.viewArticleDetail);
         mScrollView = (ObservableScrollView) mRootView.findViewById(R.id.scrollview);
         mScrollView.setCallbacks(new ObservableScrollView.Callbacks() {
             @Override
@@ -156,6 +158,7 @@ public class ArticleDetailFragment extends Fragment implements
         }
         mStatusBarColorDrawable.setColor(color);
         mDrawInsetsFrameLayout.setInsetBackground(mStatusBarColorDrawable);
+        viewArticleDetail.setMinimumHeight(mPhotoView.getMinimumHeight());
     }
 
     static float progress(float v, float min, float max) {

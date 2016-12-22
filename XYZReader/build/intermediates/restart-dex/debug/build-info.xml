@@ -1,37 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="x86"
-    api-level="19"
+    api-level="23"
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="610420908423016"
+    timestamp="786894812504284"
     token="5989882199929361439"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="437" />
+        duration="1098" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="1261" />
     <task
         name="instant-run-transform"
-        duration="71" />
+        duration="116" />
     <task
         name="verifier"
-        duration="4" />
+        duration="12" />
 
     <artifact
-        location="C:\Users\OFFICE\Downloads\xyzreader\XYZReader\build\outputs\apk\XYZReader-debug.apk"
-        type="MAIN" />
+        location="C:\Users\OFFICE\Downloads\xyzreader\XYZReader\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="C:\Users\OFFICE\Downloads\xyzreader\XYZReader\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build
-        timestamp="610420908423016"
+        timestamp="785152939410111"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\OFFICE\Downloads\xyzreader\XYZReader\build\outputs\apk\XYZReader-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="786457945900566"
+        verifier="CLASS_ADDED" >
+        <artifact
+            location="C:\Users\OFFICE\Downloads\xyzreader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="786894812504284"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\OFFICE\Downloads\xyzreader\XYZReader\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="C:\Users\OFFICE\Downloads\xyzreader\XYZReader\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

@@ -46,6 +46,7 @@ public class ArticleListActivity extends AppCompatActivity implements
         setContentView(R.layout.activity_article_list_main);
 
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
+        mToolbar.setTitle("");
         setSupportActionBar(mToolbar);
 
         final View toolbarContainerView = findViewById(R.id.toolbar_container);
@@ -122,7 +123,6 @@ public class ArticleListActivity extends AppCompatActivity implements
 
             mSwipeRefreshLayout.setRefreshing(true);
         }
-
 
     }
 
